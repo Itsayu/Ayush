@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Drag and Drop</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Drag and Drop Items</h1>
+      <div class="ddcontainer">
+        <div class="drag-container" id="drag-container">
+          <div class="drag-item" draggable="true">
+            <img
+              src="https://images.pexels.com/photos/207636/pexels-photo-207636.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Item 1"
+            />
+          </div>
+          <div class="drag-item" draggable="true">
+            <img
+              src="https://images.pexels.com/photos/46275/pexels-photo-46275.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Item 2"
+            />
+          </div>
+          <div class="drag-item" draggable="true">
+            <img
+              src="https://images.pexels.com/photos/1005012/pexels-photo-1005012.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Item 3"
+            />
+          </div>
+
+          <div class="drag-item" draggable="true">
+            <img
+              src="https://images.pexels.com/photos/207636/pexels-photo-207636.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Item 1"
+            />
+          </div>
+          <div class="drag-item" draggable="true">
+            <img
+              src="https://images.pexels.com/photos/46275/pexels-photo-46275.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Item 2"
+            />
+          </div>
+          <div class="drag-item" draggable="true">
+            <img
+              src="https://images.pexels.com/photos/46275/pexels-photo-46275.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Item 2"
+            />
+          </div>
+        </div>
+        <div class="drop-container" id="drop-container"></div>
+      </div>
+      <button id="reset-button">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
